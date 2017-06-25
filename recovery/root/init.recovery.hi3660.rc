@@ -1,4 +1,9 @@
 import /init.recovery.hi3660.usb.rc
 
 on init
-    symlink /dev/block/platform/ff3b0000.ufs /dev/block/bootdevice
+    start hw_service
+
+service hw_service /sbin/hw_service
+    oneshot
+    disabled
+    seclabel u:r:recovery:s0
