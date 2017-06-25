@@ -28,7 +28,8 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     charger_res_images \
-    charger
+    charger \
+    hw_service
 
 ADDITIONAL_DEFAULT_PROPERTIES += \
     ro.secure=0 \
