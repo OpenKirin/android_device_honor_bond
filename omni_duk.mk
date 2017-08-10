@@ -29,7 +29,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     charger_res_images \
     charger \
-    hw_service
+    hw_service \
+    openkirinfbedecr \
+    strace \
+    libdcrypt
 
 ADDITIONAL_DEFAULT_PROPERTIES += \
     ro.secure=0 \

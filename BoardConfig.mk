@@ -56,6 +56,8 @@ BOARD_USERDATAIMAGE_PARTITION_SIZE := 56547606528
 BOARD_CACHEIMAGE_PARTITION_SIZE := 268435456
 BOARD_FLASH_BLOCK_SIZE := 131072
 
+LD_SHIM_LIBS := '/vendor/bin/secure_storage|libdcrypt.so'
+
 # TWRP
 RECOVERY_VARIANT := twrp
 TW_THEME := portrait_hdpi
@@ -67,3 +69,6 @@ TW_BRIGHTNESS_PATH := /sys/class/leds/lcd_backlight0/brightness
 TW_CUSTOM_BATTERY_PATH := /sys/class/power_supply/Battery
 TW_DEVICE_VERSION := 1
 TW_EXCLUDE_SUPERSU := true
+TARGET_USES_LOGD := true
+TWRP_INCLUDE_LOGCAT := true
+TW_INCLUDE_CRYPTO := true
