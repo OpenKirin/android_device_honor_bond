@@ -1,1 +1,1 @@
-add_lunch_combo omni_duk-userdebug
+add_lunch_combo omni_bnd-userdebug

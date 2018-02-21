@@ -15,4 +15,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-	$(LOCAL_DIR)/omni_duk.mk
+	$(LOCAL_DIR)/omni_bnd.mk

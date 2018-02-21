@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-ifeq ($(TARGET_DEVICE), duk)
+ifeq ($(TARGET_DEVICE), bnd)
 
 include $(call all-makefiles-under, $(call my-dir))
 
